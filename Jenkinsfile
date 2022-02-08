@@ -6,8 +6,8 @@ node{
 			  def credentialsIds = 'github_creds'
 			  def DeployEnv = "dev"
 			BUILD_NUMBER_stage()
-		    checkoutProject(Branch, RepositoryName, credentialsIds)
-		    Clean_stage()
+		    //checkoutProject(Branch, RepositoryName, credentialsIds)
+		    //Clean_stage()
 
         
 }
